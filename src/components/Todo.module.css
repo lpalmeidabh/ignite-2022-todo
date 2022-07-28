@@ -1,0 +1,83 @@
+.todo {
+  margin-top: -4rem;
+  flex-direction: column;
+}
+
+.todoForm {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+}
+
+.todoForm input {
+  flex: 1;
+  background: var(--gray-500);
+  border: 0;
+
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+  line-height: 1.4;
+
+  margin-right: 0.5rem;
+}
+
+.todoForm button {
+  /* flex: 1; */
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 8px;
+  height: 3.25rem;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoForm button:hover {
+  background-color: var(--blue);
+}
+
+.todoForm button svg {
+  margin-left: 0.75rem;
+}
+
+.taskInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.taskCount {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.tasksDone {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.tasks {
+  margin-top: 5rem;
+}
+
+.taskList {
+  padding-top: 5rem;
+
+  border-top: 1px solid var(--gray-400);
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.emptyList span {
+  margin-top: 1rem;
+  font-weight: bold;
+}
